@@ -12,7 +12,7 @@
     }
 
     .line {
-        width: 60vw;
+        width: 59vw;
         border-bottom: 2px solid rgba(255,255,255,.25);
     }
 
@@ -76,12 +76,12 @@
         text-decoration: underline;
     }
 
-    .posts a, .projects a, .resources a, .connect a {
+    .posts a, .resources a, .connect a {
         color: #E7E5E7;
         text-decoration: none;
     }
 
-    .posts a:hover, .projects a:hover, .resources a:hover,
+    .posts a:hover, .resources a:hover,
     .connect a:hover {
         color: #03a9f4;
         text-decoration: underline;
