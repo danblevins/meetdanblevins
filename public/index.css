@@ -4,11 +4,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-		font-size: 62.5%;
-		font: inherit;
+	font-size: 62.5%;
+	font: inherit;
         background-color: #333333;
         color: #E7E5E7;
         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    }
+
+    .header {
+        text-align: center;
+        word-spacing: 50px;
+    }
+
+    .intro, .posts, .projects, .resources {
+        width: 59vw;
+        height: 100%;
+        align-content: flex-start;
+        align-items: center;
+        text-align: left;
     }
 
     .line {
@@ -28,14 +41,6 @@
     .resources ul li {
         list-style-type: none;
     }
-    
-    .intro, .posts, .projects, .resources {
-        width: 59vw;
-        height: 100%;
-        align-content: flex-start;
-        align-items: center;
-        text-align: left;
-    }
 
     .connect {
         width: 59vw;
@@ -45,7 +50,7 @@
         text-align: center;
     }
 
-    .posts-title, .projects-title, .resources-title, .connect-title {
+    .title {
         align-content: center;
         align-items: center;
         text-align: center;
@@ -62,7 +67,7 @@
     }
 
     .posts p, .projects p, .resources p, .connect p {
-        font-size: 1.3em;
+        font-size: 1.2em;
         padding-left: 0.4em;
     }
 
@@ -71,18 +76,23 @@
         text-decoration: none;
     }
 
+    .header a.current {
+        text-decoration: underline;
+    }
+
     a:hover {
         color: #03a9f4;
         text-decoration: underline;
     }
 
-    .posts a, .resources a, .connect a {
+    .posts a, .resources a, .connect a, .header a {
         color: #E7E5E7;
         text-decoration: none;
     }
 
     .posts a:hover, .resources a:hover,
-    .connect a:hover {
+    .connect a:hover, .header a:hover,
+    .header a:active {
         color: #03a9f4;
         text-decoration: underline;
     }
