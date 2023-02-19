@@ -29,11 +29,16 @@
         border-bottom: 2px solid rgba(255,255,255,.25);
     }
 
+    .text p {
+        font-size: 1.1em;
+        text-align: left;
+    }
+
     ul li {
         list-style-type: disc;
         padding: 5px 0px;
         font-size: 1.1em;
-        padding-left: 0.4em;
+        text-align: left;
     }
 
     .posts ul li,
@@ -44,6 +49,7 @@
 
     .connect {
         width: 59vw;
+        font-size: 1.1em;
         height: 100%;
         align-content: center;
         align-items: center;
@@ -63,12 +69,10 @@
 
     .intro p {
         font-size: 1.1em;
-        padding-left: 0.4em;
     }
 
-    .posts p, .projects p, .resources p, .connect p {
+    .title p {
         font-size: 1.2em;
-        padding-left: 0.4em;
     }
 
     a {
@@ -116,6 +120,7 @@ and (orientation: portrait) {
     }
 
     .posts, .projects, .resources, .connect {
+        font-size: 1.1em;
         width: 90vw;
         height: 100%;
     }
